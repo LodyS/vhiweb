@@ -6,8 +6,8 @@
 
                 </div>
                 <a href="{{ url('form/'. $token) }}" align="right">Tambah Foto</a>
-                <form action="{{ url('logout') }}" method="post">
-                <button type="submit" class="btn btn-danger" align="right">Logout</button></form><hr/>
+                    <form action="{{ url('logout') }}" method="post">
+                    <button type="submit" class="btn btn-danger" align="right">Logout</button></form><hr/>
                     <div class="card-body">
                         @foreach($foto as $key=> $data)
                             @foreach($data as $d)
