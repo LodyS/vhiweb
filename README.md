@@ -1,4 +1,4 @@
-## silahkan jalan perintah composer update
+## silahkan jalan perintah composer install
 ## silahkan jalankan perintah php artisan migrate untuk membuat table
 ## silahkan jalankan perintah php artisan db:seed --class=PenggunaSeeder untuk membuat data dummy pengguna
 ## silahkan jalankan perintah php artisan serve untuk menjalankan rest API
